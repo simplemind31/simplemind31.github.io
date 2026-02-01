@@ -1,0 +1,124 @@
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #2c2c2c;
+  line-height: 1.7;
+}
+
+/* ===== Header ===== */
+.site-header {
+  background: linear-gradient(135deg, #111827, #1f2933);
+  color: white;
+  padding: 80px 20px 60px;
+}
+
+.header-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #c7d2fe;
+}
+
+/* ===== Navigation ===== */
+nav {
+  margin-top: 30px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background: #818cf8;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* ===== Sections ===== */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  border-left: 4px solid #6366f1;
+  padding-left: 12px;
+}
+
+/* ===== Skills ===== */
+.skills {
+  margin-top: 15px;
+}
+
+.skills span {
+  display: inline-block;
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ===== Lists ===== */
+ul {
+  padding-left: 20px;
+}
+
+/* ===== Blog list ===== */
+section ul li a {
+  color: #4f46e5;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 80px;
+  padding: 30px;
+  text-align: center;
+  background: #111827;
+  color: #9ca3af;
+  font-size: 14px;
+}
