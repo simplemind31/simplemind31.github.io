@@ -175,8 +175,14 @@ section ul li a:hover {
   text-align: center;
 }
 
-.blog-hero {
+.blog-hero-ioi{
   background-image: url("images/codemao.jpg");
+  background-size: cover;
+  background-position: center 30%;
+  min-height: 65vh;
+}
+.blog-hero-weirdo{
+  background-image: url("images/smile.jpg");
   background-size: cover;
   background-position: center 30%;
   min-height: 65vh;
